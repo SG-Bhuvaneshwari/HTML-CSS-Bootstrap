@@ -1,0 +1,72 @@
+body{
+    padding:0;
+    margin:0;
+  }
+    
+header{ 
+    background-color: black;
+    color:white;
+    display: flex;
+    }
+
+header h1{
+    margin:20px;
+    }
+
+nav ul{
+    display:flex;
+    margin-left:650px;
+  }
+
+  li{
+    display: flex;
+    padding:15px;
+    cursor:pointer;
+    color:grey;
+  }
+
+  li:hover{
+    color:blue;
+  }
+  li:active{
+    color:white;
+  }
+
+  .search{
+    text-align: center;
+    margin:20px 20px 0px 20px;
+  }
+
+ .Products{
+    padding:50px;
+    margin:0px 50px;
+    display:flex;
+    text-align: center;
+    margin:0px 50px 0px 200px;
+ }
+
+ .pro{
+    height:380px;
+    width:250px;
+    border:2px solid black;
+    text-align: center;
+    padding:1px;
+    margin:5px 5px 0px 5px;
+    cursor:pointer;
+ }
+
+ .pro:hover{
+  background-color: black;
+  color:white;
+ }
+  .about{
+    text-align: center;
+    padding:0 15px 0px 15px;
+    margin:0;
+
+  }
+  footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+  }
